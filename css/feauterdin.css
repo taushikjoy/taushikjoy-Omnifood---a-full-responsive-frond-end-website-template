@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: "Rubik", sans-serif;
+  color: #555;
+}
+
+.featured-in {
+}
+.feature {
+  max-width: 120rem;
+  background-color: rgb(255, 255, 255);
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.feature-title {
+  font-weight: 600;
+  margin-top: 15px;
+}
+.feature-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.feature-img img {
+  height: 35px;
+  opacity: 0.4;
+}
+
+.spacee {
+  height: 300px;
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: "Rubik", sans-serif;
+  color: #555;
+}
+
+.price-div {
+  width: 90%;
+
+  margin: 2rem auto;
+}
+
+.price-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+
+  padding: 4rem 12rem;
+  height: 40rem;
+  width: 80rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 0 2px #e67e22;
+  padding: 1.5rem 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100%;
+  width: 80%;
+}
+
+.pricefirst {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.price h3 {
+}
+
+.price span {
+}
+
+.price ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.price a {
+  display: inline-block;
+
+  background-color: #e67e22;
+  padding: 1rem 1.5rem;
+  border-radius: 9px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.price ul li {
+  list-style: none;
+}
+
+.pricefirst h3 {
+  color: #b97131;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.pricefirst p {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pricefirst span {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.pcomplete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.best-seller {
+  background-color: #ffd43b;
+  color: #000;
+  position: absolute;
+  right: -35px;
+  top: 42px;
+  transform: rotate(47deg);
+  padding: 0.2rem 2.2rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.caution {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.caution p {
+  margin-bottom: 5rem;
+  color: #6b3719;
+  font-size: 1.5rem;
+}
+
+.pricing-conclution {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.conc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.conc-card ion-icon {
+  color: #b97131;
+  transform: scale(3);
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  position: relative;
+}
+
+.conc-card ion-icon::before {
+  content: "";
+  display: block;
+  width: 60%;
+  background-color: #fdf2e9;
+  padding-bottom: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.conc-card h2 {
+  font-size: 1.7rem;
+}
+.conc-card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
